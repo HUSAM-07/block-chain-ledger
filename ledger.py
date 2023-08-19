@@ -150,8 +150,8 @@ def setup():
     return PyChain([Block("Genesis", 0)])
 
 
-st.markdown("# PyChain")
-st.markdown("## Store a Transaction Record in the PyChain")
+st.markdown("# IntelliTrack Internal Ledger")
+st.markdown("## Store a Transaction Record in the Chain")
 
 pychain = setup()
 
